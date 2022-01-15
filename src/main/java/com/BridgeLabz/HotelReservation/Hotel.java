@@ -1,21 +1,17 @@
 package com.BridgeLabz.HotelReservation;
 public class Hotel {
 
-    String hotelName;
-    int rating;
-    double weekdayRegularCustomerCost;
-    double weekendRegularCustomerCost;
+    private String hotelName;
+    private int rating;
+    private double regularCustomerCost;
 
     public Hotel() {
-
     }
 
-    public Hotel(String hotelName, int rating, double weekdayRegularCustomerCost, double weekdayRewardCustomerCost,
-                 double weekendRegularCustomerCost, double weekendRewardCustomerCost) {
+    public Hotel(String hotelName, int rating, double regularCustomerCost) {
         this.hotelName = hotelName;
         this.rating = rating;
-        this.weekdayRegularCustomerCost = weekdayRegularCustomerCost;
-        this.weekendRegularCustomerCost = weekendRegularCustomerCost;
+        this.regularCustomerCost = regularCustomerCost;
     }
 
     public String getHotelName() {
@@ -34,26 +30,17 @@ public class Hotel {
         this.rating = rating;
     }
 
-    public double getWeekdayRegularCustomerPrice() {
-        return weekdayRegularCustomerCost;
+    public double getRegularCustomerCost() {
+        return regularCustomerCost;
     }
 
-    public void setWeekdayRegularCustomerPrice(double weekdayRegularCustomerCost) {
-        this.weekdayRegularCustomerCost = weekdayRegularCustomerCost;
-    }
-
-    public double getWeekendRegularCustomerPrice() {
-        return weekendRegularCustomerCost;
-    }
-
-    public void setWeekendRegularCustomerPrice(double weekendRegularCustomerCost) {
-        this.weekendRegularCustomerCost = weekendRegularCustomerCost;
+    public void setRegularCustomerCost(double regularCustomerCost) {
+        this.regularCustomerCost = regularCustomerCost;
     }
 
     @Override
     public String toString() {
-        return "Hotels [hotelName=" + hotelName + ", rating=" + rating + ", weekdayRegularCustomerPrice="
-                + weekdayRegularCustomerCost + ", weekendRegularCustomerPrice=" + weekendRegularCustomerCost + "]";
+        return "Hotels [hotelName=" + hotelName + ", rating=" + rating + ", Regular Customer Cost="+ regularCustomerCost +"]\n";
     }
 
 }
