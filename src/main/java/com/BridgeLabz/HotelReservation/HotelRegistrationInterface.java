@@ -13,6 +13,10 @@ public interface HotelRegistrationInterface {
 
     public ArrayList<Hotel> getHotelList();
 
+    public String getDates();
+
+    public boolean validateDate(String date);
+
     public ArrayList<Hotel> getCheapestHotel(String customerType, LocalDate startDate, LocalDate endDate);
 
     public Hotel getCheapestBestRatedHotel(String customerType, LocalDate startDate, LocalDate endDate);
@@ -21,4 +25,3 @@ public interface HotelRegistrationInterface {
 
     public ArrayList<Integer> getDurationOfStayDetails(LocalDate startDate, LocalDate endDate);
 }
-
