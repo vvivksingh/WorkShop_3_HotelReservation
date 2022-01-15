@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.BridgeLabz.HotelReservation.HotelReservationTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-01-15T11:23:44" hostname="VIVEK" time="0.096">
+<testsuite name="com.BridgeLabz.HotelReservation.HotelReservationTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-01-15T11:38:22" hostname="VIVEK" time="0.089">
   <properties/>
-  <testcase name="givenHotelList_WhenAdded_shouldReturnProperHotelWeekdayRegularCustomerCost()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.043"/>
+  <testcase name="givenHotelList_WhenAdded_shouldReturnProperHotelWeekdayRegularCustomerCost()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.038"/>
   <testcase name="givenHotelList_WhenAdded_shouldReturnProperHotelWeekendRegularCustomerCost()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.002"/>
   <testcase name="givenHotelList_WhenAdded_shouldReturnProperHotelName()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.004"/>
-  <testcase name="givenHotelDetails_WhenValuesEnteredAreCorrect_ShoulReturnTrue()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.004"/>
-  <testcase name="givenHotelDetails_WhenHotelPricesAreSame_shouldReturnHighestRatedHotel()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.032"/>
-  <testcase name="givenHotelDetails_shouldReturnCheapestHotel()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.002"/>
+  <testcase name="givenHotelDetails_WhenValuesEnteredAreCorrect_ShoulReturnTrue()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.003"/>
+  <testcase name="givenHotelDetails_WhenHotelPricesAreSame_shouldReturnHighestRatedHotel()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.016"/>
+  <testcase name="givenHotelDetails_shouldReturnCheapestHotel()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.014"/>
   <testcase name="givenHotelList_WhenAdded_shouldReturnProperHotelRating()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.002"/>
   <system-out><![CDATA[Successfully ADDED !!
 Successfully ADDED !!
@@ -20,17 +20,14 @@ Successfully ADDED !!
 ]
 Successfully ADDED !!
 Successfully ADDED !!
-Cheap Hotel : 
-Lakewood, Total Rates: 200.0
-Cheap Hotel : 
-Bridgewood, Total Rates: 200.0
-Cheapest Best Rated Hotel : 
-Bridgewood, Total Rates: 200.0
+Successfully ADDED !!
+Best Rated Hotel : 
+Ridgewood, Total Rates: 440.0
 Successfully ADDED !!
 Successfully ADDED !!
-Cheap Hotel : 
+Cheap Hotels : 
+
 Lakewood, Total Rates: 200.0
-Cheap Hotel : 
 Bridgewood, Total Rates: 200.0
 Successfully ADDED !!
 ]]></system-out>
