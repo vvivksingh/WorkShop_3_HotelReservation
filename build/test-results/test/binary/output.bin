@@ -1,12 +1,13 @@
 Successfully ADDED !!
 Successfully ADDED !!
-Successfully ADDED !!
-Successfully ADDED !!
-D[Hotels [hotelName=Lakewood, rating=3, Regular Customer Cost=110.0]
-G, Hotels [hotelName=Bridgewood, rating=4, Regular Customer Cost=160.0]
-F, Hotels [hotelName=Ridgewood, rating=5, Regular Customer Cost=220.0]
-]
-Successfully ADDED !!
 Successfully ADDED !!
 Successfully ADDED !!
+Successfully ADDED !!
+Successfully ADDED !!
+o[Hotels [hotelName=Lakewood, rating=3, Regular Customer WeekDay Cost=110.0Regular Customer WeekDay Cost=110.0]
+r, Hotels [hotelName=Bridgewood, rating=4, Regular Customer WeekDay Cost=150.0Regular Customer WeekDay Cost=150.0]
+q, Hotels [hotelName=Ridgewood, rating=5, Regular Customer WeekDay Cost=220.0Regular Customer WeekDay Cost=220.0]
+]
 Successfully ADDED !!
+Successfully ADDED !!
+Successfully ADDED !!
