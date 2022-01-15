@@ -46,7 +46,7 @@ public class HotelReservation implements HotelRegistrationInterface {
 		System.out.println("Enter the Date in YYYY-MM-DD: ");
 		String date = scannerObject.next();
 		boolean isValid = validateDate(date);
-		if(isValid)
+		if (isValid)
 			return date;
 		return null;
 	}
@@ -54,13 +54,12 @@ public class HotelReservation implements HotelRegistrationInterface {
 	public boolean validateDate(String date) {
 
 		try {
-			if(date.length() == 0)
+			if (date.length() == 0)
 				throw new HotelReservationException(HotelReservationException.ExceptionType.ENTERED_NOTHING, "Date Is EMPTY");
 
 			String dateRegEx = "^([0-9]{4})[-](([0][1-9])|([1][0-2]))[-]([0-2][0-9]|(3)[0-1])$";
 			return date.matches(dateRegEx);
-		}
-		catch(NullPointerException e) {
+		} catch (NullPointerException e) {
 			throw new HotelReservationException(HotelReservationException.ExceptionType.ENTERED_NULL, "Date is NULL");
 		}
 
@@ -112,8 +111,7 @@ public class HotelReservation implements HotelRegistrationInterface {
 					.filter(hotel -> (hotel.getWeekendRegularCustomerCost() * weekendsNumber
 							+ hotel.getWeekdayRegularCustomerCost() * weekdaysNumber) == cheapestPrice)
 					.collect(Collectors.toCollection(ArrayList::new));
-		}
-		else if (customerType.equalsIgnoreCase("Reward")) {
+		} else if (customerType.equalsIgnoreCase("Reward")) {
 
 			cheapestPrice = hotelList.stream()
 					.mapToDouble(hotel -> ((hotel.getWeekendRewardCustomerCost() * weekendsNumber)
@@ -143,7 +141,7 @@ public class HotelReservation implements HotelRegistrationInterface {
 
 		try {
 
-			if(customerType.length() == 0)
+			if (customerType.length() == 0)
 				throw new HotelReservationException(HotelReservationException.ExceptionType.ENTERED_NOTHING, "EMPTY Value Entered");
 
 			ArrayList<Hotel> cheapestHotels = getCheapestHotel(customerType, startDate, endDate);
@@ -153,8 +151,7 @@ public class HotelReservation implements HotelRegistrationInterface {
 			System.out.println("Cheapest Best Rated Hotel : \n" + sortedHotelList.get().getHotelName() + ", Total Rates: "
 					+ cheapestPrice);
 			return sortedHotelList.get();
-		}
-		catch(NullPointerException e) {
+		} catch (NullPointerException e) {
 			throw new HotelReservationException(HotelReservationException.ExceptionType.ENTERED_NULL, "NULL Value Entered");
 		}
 	}
@@ -163,7 +160,7 @@ public class HotelReservation implements HotelRegistrationInterface {
 
 		try {
 
-			if(customerType.length() == 0)
+			if (customerType.length() == 0)
 				throw new HotelReservationException(HotelReservationException.ExceptionType.ENTERED_NOTHING, "EMPTY Value Entered");
 
 			ArrayList<Integer> durationDetails = getDurationOfStayDetails(startDate, endDate);
@@ -174,12 +171,11 @@ public class HotelReservation implements HotelRegistrationInterface {
 			Optional<Hotel> sortedHotelList = hotelList.stream()
 					.max(Comparator.comparing(Hotel::getRating));
 
-			if(customerType.equalsIgnoreCase("Regular")) {
+			if (customerType.equalsIgnoreCase("Regular")) {
 
 				totalPrice = weekdaysNumber * sortedHotelList.get().getWeekdayRegularCustomerCost()
 						+ weekendsNumber * sortedHotelList.get().getWeekendRegularCustomerCost();
-			}
-			else if(customerType.equalsIgnoreCase("Reward")){
+			} else if (customerType.equalsIgnoreCase("Reward")) {
 
 				totalPrice = weekdaysNumber * sortedHotelList.get().getWeekdayRewardCustomerCost()
 						+ weekendsNumber * sortedHotelList.get().getWeekendRewardCustomerCost();
@@ -189,8 +185,7 @@ public class HotelReservation implements HotelRegistrationInterface {
 			System.out.println("Best Rated Hotel : \n" + sortedHotelList.get().getHotelName() + ", Rating : "
 					+ sortedHotelList.get().getRating() + ", Total Rates: " + totalPrice);
 			return sortedHotelList.get();
-		}
-		catch(NullPointerException e) {
+		} catch (NullPointerException e) {
 			throw new HotelReservationException(HotelReservationException.ExceptionType.ENTERED_NULL, "NULL Value Entered");
 		}
 

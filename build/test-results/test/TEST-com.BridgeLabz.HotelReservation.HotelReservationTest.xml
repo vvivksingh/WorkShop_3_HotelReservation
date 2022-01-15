@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.BridgeLabz.HotelReservation.HotelReservationTest" tests="22" skipped="0" failures="0" errors="0" timestamp="2022-01-15T14:44:08" hostname="VIVEK" time="0.287">
+<testsuite name="com.BridgeLabz.HotelReservation.HotelReservationTest" tests="22" skipped="0" failures="0" errors="0" timestamp="2022-01-15T15:08:54" hostname="VIVEK" time="0.211">
   <properties/>
-  <testcase name="givenHotelList_WhenAdded_shouldReturnProperHotelWeekdayRegularCustomerCost()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.049"/>
-  <testcase name="givenHotelDetails_WhenRewardCustomerAndHotelPricesAreSame_ShouldReturnHighestRatedHotel()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.063"/>
-  <testcase name="givenHotelList_WhenAdded_shouldReturnProperHotelWeekendRegularCustomerCost()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.002"/>
-  <testcase name="givenHotelDetails_WhenRegularCustomer_ShouldReturnHighestRatedHotel()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.005"/>
-  <testcase name="givenHotelDetails_WhenRewardCustomer_ShouldReturnHighestRatedHotel()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.004"/>
-  <testcase name="givenHotelDetails_WhenRewardCustomer_ShouldReturnCheapestHotel()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.002"/>
-  <testcase name="givenHotelDetails_WhenRegularCustomerAndHotelPricesAreSame_shouldReturnHighestRatedHotel()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.005"/>
-  <testcase name="givenDate_WhenContainsCharcters_ShouldReturnFalse()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.007"/>
-  <testcase name="givenHotelList_WhenAdded_shouldReturnProperHotelWeekendRewardCustomerCost()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.006"/>
-  <testcase name="givenHotelDetails_WhenRegularCustomer_shouldReturnCheapestHotel()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.004"/>
+  <testcase name="givenHotelList_WhenAdded_shouldReturnProperHotelWeekdayRegularCustomerCost()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.053"/>
+  <testcase name="givenHotelDetails_WhenRewardCustomerAndHotelPricesAreSame_ShouldReturnHighestRatedHotel()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.04"/>
+  <testcase name="givenHotelList_WhenAdded_shouldReturnProperHotelWeekendRegularCustomerCost()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.003"/>
+  <testcase name="givenHotelDetails_WhenRegularCustomer_ShouldReturnHighestRatedHotel()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.004"/>
+  <testcase name="givenHotelDetails_WhenRewardCustomer_ShouldReturnHighestRatedHotel()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.002"/>
+  <testcase name="givenHotelDetails_WhenRewardCustomer_ShouldReturnCheapestHotel()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.004"/>
+  <testcase name="givenHotelDetails_WhenRegularCustomerAndHotelPricesAreSame_shouldReturnHighestRatedHotel()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.003"/>
+  <testcase name="givenDate_WhenContainsCharcters_ShouldReturnFalse()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.002"/>
+  <testcase name="givenHotelList_WhenAdded_shouldReturnProperHotelWeekendRewardCustomerCost()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.001"/>
+  <testcase name="givenHotelDetails_WhenRegularCustomer_shouldReturnCheapestHotel()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.001"/>
   <testcase name="givenHotelList_WhenAdded_shouldReturnProperHotelWeekdayRewardCustomerCost()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.003"/>
-  <testcase name="givenHotelDetails_WhenNull_ShouldThrowHotelReservationException()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.029"/>
+  <testcase name="givenHotelDetails_WhenNull_ShouldThrowHotelReservationException()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.019"/>
   <testcase name="givenHotelList_WhenAdded_shouldReturnProperHotelName()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.001"/>
-  <testcase name="givenHotelDetails_WhenValuesEnteredAreCorrect_ShoulReturnTrue()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.002"/>
-  <testcase name="givenHotelDetails_WhenEmpty_ShouldThrowHotelReservationException()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.015"/>
-  <testcase name="givenDate_WhenNull_ShouldThrowHotelReservationException()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.024"/>
+  <testcase name="givenHotelDetails_WhenValuesEnteredAreCorrect_ShoulReturnTrue()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.001"/>
+  <testcase name="givenHotelDetails_WhenEmpty_ShouldThrowHotelReservationException()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.014"/>
+  <testcase name="givenDate_WhenNull_ShouldThrowHotelReservationException()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.007"/>
   <testcase name="givenDate_WhenProper_ShouldReturnTrue()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.002"/>
-  <testcase name="givenDate_WhenSpecialCharcters_ShouldReturnFalse()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.002"/>
-  <testcase name="givenDate_WhenEmpty_ShouldThrowHotelReservationException()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.01"/>
+  <testcase name="givenDate_WhenSpecialCharcters_ShouldReturnFalse()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.001"/>
+  <testcase name="givenDate_WhenEmpty_ShouldThrowHotelReservationException()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.007"/>
   <testcase name="givenHotelList_WhenAdded_shouldReturnProperHotelRating()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.001"/>
-  <testcase name="givenDate_WhenNotProperFormat_ShouldReturnFalse()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.002"/>
-  <testcase name="givenDate_WhenSeperatedBySlashes_ShouldReturnFalse()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.003"/>
+  <testcase name="givenDate_WhenNotProperFormat_ShouldReturnFalse()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.0"/>
+  <testcase name="givenDate_WhenSeperatedBySlashes_ShouldReturnFalse()" classname="com.BridgeLabz.HotelReservation.HotelReservationTest" time="0.001"/>
   <system-out><![CDATA[Successfully ADDED !!
 Successfully ADDED !!
 Successfully ADDED !!
@@ -86,8 +86,8 @@ Successfully ADDED !!
 Successfully ADDED !!
 ]]></system-out>
   <system-err><![CDATA[com.BridgeLabz.HotelReservation.HotelReservationException: NULL Value Entered
-	at com.BridgeLabz.HotelReservation.HotelReservation.getCheapestBestRatedHotel(HotelReservation.java:158)
-	at com.BridgeLabz.HotelReservation.HotelReservationTest.givenHotelDetails_WhenNull_ShouldThrowHotelReservationException(HotelReservationTest.java:198)
+	at com.BridgeLabz.HotelReservation.HotelReservation.getCheapestBestRatedHotel(HotelReservation.java:155)
+	at com.BridgeLabz.HotelReservation.HotelReservationTest.givenHotelDetails_WhenNull_ShouldThrowHotelReservationException(HotelReservationTest.java:231)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -179,8 +179,8 @@ Successfully ADDED !!
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.lang.Thread.run(Thread.java:748)
 com.BridgeLabz.HotelReservation.HotelReservationException: EMPTY Value Entered
-	at com.BridgeLabz.HotelReservation.HotelReservation.getCheapestBestRatedHotel(HotelReservation.java:147)
-	at com.BridgeLabz.HotelReservation.HotelReservationTest.givenHotelDetails_WhenEmpty_ShouldThrowHotelReservationException(HotelReservationTest.java:218)
+	at com.BridgeLabz.HotelReservation.HotelReservation.getCheapestBestRatedHotel(HotelReservation.java:145)
+	at com.BridgeLabz.HotelReservation.HotelReservationTest.givenHotelDetails_WhenEmpty_ShouldThrowHotelReservationException(HotelReservationTest.java:251)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -272,8 +272,8 @@ com.BridgeLabz.HotelReservation.HotelReservationException: EMPTY Value Entered
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.lang.Thread.run(Thread.java:748)
 com.BridgeLabz.HotelReservation.HotelReservationException: Date is NULL
-	at com.BridgeLabz.HotelReservation.HotelReservation.validateDate(HotelReservation.java:64)
-	at com.BridgeLabz.HotelReservation.HotelReservationTest.givenDate_WhenNull_ShouldThrowHotelReservationException(HotelReservationTest.java:273)
+	at com.BridgeLabz.HotelReservation.HotelReservation.validateDate(HotelReservation.java:63)
+	at com.BridgeLabz.HotelReservation.HotelReservationTest.givenDate_WhenNull_ShouldThrowHotelReservationException(HotelReservationTest.java:306)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -366,7 +366,7 @@ com.BridgeLabz.HotelReservation.HotelReservationException: Date is NULL
 	at java.lang.Thread.run(Thread.java:748)
 com.BridgeLabz.HotelReservation.HotelReservationException: Date Is EMPTY
 	at com.BridgeLabz.HotelReservation.HotelReservation.validateDate(HotelReservation.java:58)
-	at com.BridgeLabz.HotelReservation.HotelReservationTest.givenDate_WhenEmpty_ShouldThrowHotelReservationException(HotelReservationTest.java:287)
+	at com.BridgeLabz.HotelReservation.HotelReservationTest.givenDate_WhenEmpty_ShouldThrowHotelReservationException(HotelReservationTest.java:320)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
