@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2f61fa2-3977-456a-bf09-ddf03bb282c7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/BridgeLabz/HotelReservation/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/BridgeLabz/HotelReservation/Hotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/BridgeLabz/HotelReservation/HotelReservationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BridgeLabz/HotelReservation/HotelReservationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/BridgeLabz/HotelReservation/HotelReservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/BridgeLabz/HotelReservation/HotelReservation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Gradle.HotelReservationTest.givenHotelDetails_WhenValuesEnteredAreCorrect_ShoulReturnTrue">
+  <component name="RunManager" selected="Gradle.HotelReservationTest">
     <configuration name="HotelReservationSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.BridgeLabz.HotelReservation.HotelReservationSystem" />
       <module name="hotelReservation.main" />
@@ -67,6 +67,29 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="HotelReservationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.BridgeLabz.HotelReservation.HotelReservationTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="HotelReservationTest.givenHotelDetails_WhenValuesEnteredAreCorrect_ShoulReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -106,6 +129,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.HotelReservationTest" />
         <item itemvalue="Gradle.HotelReservationTest.givenHotelDetails_WhenValuesEnteredAreCorrect_ShoulReturnTrue" />
         <item itemvalue="Application.HotelReservationSystem" />
       </list>
